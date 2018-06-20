@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Sushi
+  - Chopstick
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: bottom
+    uniqueID: 4173580501
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: box
+    uniqueID: 3984688455
+    locked: 0
+  - name: button
+    uniqueID: 2252633599
+    locked: 0
+  - name: top
+    uniqueID: 717107907
+    locked: 0

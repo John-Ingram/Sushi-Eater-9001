@@ -7666,8 +7666,10 @@ MonoBehaviour:
   bPressed: {fileID: 21300002, guid: d3887d27e01f9864f804c3e5dea646d8, type: 3}
   bLoose: {fileID: 21300000, guid: d3887d27e01f9864f804c3e5dea646d8, type: 3}
   timePressed: 1
+  gameSpeed: 1
   sushi: {fileID: 699586276}
   spawner: {fileID: 1310495810}
+  score: {fileID: 1435440120}
 --- !u!1 &1435440118
 GameObject:
   m_ObjectHideFlags: 0

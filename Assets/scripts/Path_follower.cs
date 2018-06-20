@@ -35,12 +35,14 @@ public class Path_follower : MonoBehaviour {
                 }
                 else
                 {
-                    if (index < waypoints.Length)
-
+                   
                         index++;
-
                 }
             }
+        }
+        else
+        {
+            index = 0;
         }
 	}
 

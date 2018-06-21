@@ -52,6 +52,15 @@ TagManager:
   - name: button
     uniqueID: 2252633599
     locked: 0
+  - name: Belts
+    uniqueID: 4241956523
+    locked: 0
+  - name: Persons
+    uniqueID: 1926820761
+    locked: 0
+  - name: UI
+    uniqueID: 3578443047
+    locked: 0
   - name: top
     uniqueID: 717107907
     locked: 0

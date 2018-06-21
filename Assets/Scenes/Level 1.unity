@@ -2181,6 +2181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failSushi: {fileID: 21300000, guid: 5ee3509b1477f9743b640dd963df269a, type: 3}
+  canBeDamaged: 0
 --- !u!114 &1365877592
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class Sushi_Behavior : MonoBehaviour {
     public Sprite failSushi;
-
+    public bool canBeDamaged = true;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Chopstick")
+        if (canBeDamaged)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = failSushi;
+            if (collision.gameObject.tag == "Chopstick")
+            {
+                gameObject.GetComponent<SpriteRenderer>().sprite = failSushi;
+            }
         }
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

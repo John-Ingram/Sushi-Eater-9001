@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Person_controller : MonoBehaviour {
     public Sprite personDone;
-    public bool done = false;
+    private bool done = false;
+    public bool getsHungry;
     public Check_For_Completion complete;
     public float hungerTime = 3.00f;
 
@@ -22,7 +23,10 @@ public class Person_controller : MonoBehaviour {
                 complete.UpdateScore();
                 gameObject.GetComponent<Animator>().enabled = false;
                 this.GetComponent<SpriteRenderer>().sprite = personDone;
-                StartCoroutine(GetHungry());
+                if (getsHungry)
+                {
+                    StartCoroutine(GetHungry());
+                }
             }
         }
     }

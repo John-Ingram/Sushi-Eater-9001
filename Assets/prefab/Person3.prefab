@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1576104342317808}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.227, y: 0.174, z: 0}
+  m_LocalPosition: {x: 0.225, y: 0.389, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -119,7 +119,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   personDone: {fileID: 21300000, guid: c99badfd269e53445a85d25f50ec8596, type: 3}
-  done: 0
+  getsHungry: 0
+  complete: {fileID: 0}
+  hungerTime: 3
 --- !u!212 &212107934611446770
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -152,8 +154,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 717107907
-  m_SortingLayer: 3
+  m_SortingLayerID: -2042333697
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c99badfd269e53445a85d25f50ec8596, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

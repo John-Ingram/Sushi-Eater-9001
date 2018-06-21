@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Person_controller : MonoBehaviour {
     public Sprite personDone;
-    private bool done = false;
     public bool getsHungry;
     public Check_For_Completion complete;
     public float hungerTime = 3.00f;
-
+    private bool done = false;
 
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -5,8 +5,9 @@ using UnityEngine;
 public class Throw : MonoBehaviour {
     public GameObject chopstick;
     public float throwDelay = 0.5f;
-
+    
     private float lastThrow;
+    public bool canThrow = true;
 
     private void Start()
     {
@@ -24,7 +25,11 @@ public class Throw : MonoBehaviour {
         }
         if (Input.GetMouseButtonDown(0))
         {
-            ThrowStick();
+            if (canThrow)
+            {
+                ThrowStick();
+            }
+
         }
 	}
 
@@ -33,15 +38,22 @@ public class Throw : MonoBehaviour {
         float currentTime = Time.time;
         if (currentTime - lastThrow >= throwDelay)
         {
-            GameObject clone;
-            clone = Instantiate(chopstick, gameObject.transform.position, gameObject.transform.rotation);
-            clone.SetActive(true);
-            StartCoroutine(Delay());
-            lastThrow = Time.time;
+                GameObject clone;
+                clone = Instantiate(chopstick, gameObject.transform.position, gameObject.transform.rotation);
+                clone.SetActive(true);
+                StartCoroutine(Delay());
+                lastThrow = Time.time;
+
         }
     }
+
     IEnumerator Delay()
     {
         yield return new WaitForSeconds(throwDelay);
+    }
+
+    public void DisableThrow()
+    {
+        canThrow = false;
     }
 }

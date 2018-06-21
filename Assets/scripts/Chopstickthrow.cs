@@ -7,10 +7,7 @@ public class Chopstickthrow : MonoBehaviour {
     public float speed = 1;
 
     private bool hasCollided = false;
-	// Use this for initialization
-	void Start () {
-      
-    }
+
     private void OnCollisionEnter2D(Collision2D thing)
     {
         if (thing.gameObject.tag == "Sushi")

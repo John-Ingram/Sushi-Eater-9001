@@ -37,6 +37,6 @@ public class Check_For_Completion : MonoBehaviour {
     }
     public void UpdateScore()
     {
-        score.text = playersFinished.ToString() + " of " + numberOfPlayers.ToString() + " done";
+        score.text = playersFinished.ToString() + " of " + numberOfPlayers.ToString() + " full";
     }
 }

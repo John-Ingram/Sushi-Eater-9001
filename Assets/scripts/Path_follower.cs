@@ -13,7 +13,6 @@ public class Path_follower : MonoBehaviour {
     private int index = 0;
 
 
-	// Use this for initialization
 	void Start () {
         foreach (GameObject thing in waypoints)
         {
@@ -21,7 +20,7 @@ public class Path_follower : MonoBehaviour {
         }
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
         if (index < waypoints.Length)
         {

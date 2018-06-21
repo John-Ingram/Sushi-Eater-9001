@@ -26,6 +26,10 @@ public class Check_For_Completion : MonoBehaviour {
         playersFinished++ ;
         
     }
+    public void HungryAgain()
+    {
+        playersFinished--;
+    }
     IEnumerator LoadScene()
     {
         yield return new WaitForSeconds(waitTime);

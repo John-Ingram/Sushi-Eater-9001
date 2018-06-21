@@ -10,9 +10,7 @@ public class Press_Button : MonoBehaviour {
     public float gameSpeed = 1;
     public GameObject sushi;
     public GameObject spawner;
-    public TextMeshProUGUI score;
-    private int scoreInt;
-    private int scoreMultiplier;
+
 
     //################Time Stuff####################
     void SpeedUp()
@@ -43,8 +41,5 @@ public class Press_Button : MonoBehaviour {
     void UpdateScore()
     {
         SpeedUp();
-        scoreMultiplier = (int)Math.Ceiling(gameSpeed) * 10;
-        scoreInt = scoreInt + 1 * scoreMultiplier;
-        score.text = scoreInt.ToString();
     }
 }

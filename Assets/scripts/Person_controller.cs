@@ -15,6 +15,7 @@ public class Person_controller : MonoBehaviour {
                 Destroy(collision.gameObject);
                 done = true;
                 complete.PlayerFinished();
+                complete.UpdateScore();
                 gameObject.GetComponent<Animator>().enabled = false;
                 this.GetComponent<SpriteRenderer>().sprite = personDone;
             }

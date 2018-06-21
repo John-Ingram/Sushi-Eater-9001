@@ -2370,6 +2370,7 @@ MonoBehaviour:
   nextScene: SampleScene
   numberOfPlayers: 2
   waitTime: 0.5
+  score: {fileID: 1313957428}
 --- !u!4 &1361084359
 Transform:
   m_ObjectHideFlags: 0
@@ -7350,7 +7351,6 @@ MonoBehaviour:
   gameSpeed: 1
   sushi: {fileID: 1365877590}
   spawner: {fileID: 326579477}
-  score: {fileID: 1313957428}
 --- !u!61 &1455694535
 BoxCollider2D:
   m_ObjectHideFlags: 0

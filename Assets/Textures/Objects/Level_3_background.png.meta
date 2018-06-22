@@ -1,15 +1,7 @@
 fileFormatVersion: 2
-guid: 91a8a1be11e79894cbd877a73f4e185b
+guid: 181933f47c3251d4596b54004da775ca
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Chopstick_Animated_0
-    21300002: Chopstick_Animated_1
-    21300004: Chopstick_Animated_2
-    21300006: Chopstick_Animated_3
-    21300008: Chopstick_Animated_4
-    21300010: Chopstick_Animated_5
-    21300012: Chopstick_Animated_6
-    21300014: Chopstick_Animated_7
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -39,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -48,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 420
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,71 +93,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Chopstick_Animated_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 43
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcf0f0438e270da44b90b8fdf3446a73
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chopstick_Animated_1
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 0
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 196acb71e0407fc41b0f46b3cc87ee72
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chopstick_Animated_2
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 0
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed82f6f075001b34daf179bd2235fda5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2715e15793f31214e90b4323f108b636
+    spriteID: 86617edad6a275845ba9135a4c25226e
     vertices: []
     indices: 
     edges: []

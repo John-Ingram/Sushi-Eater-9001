@@ -1,15 +1,11 @@
 fileFormatVersion: 2
-guid: 91a8a1be11e79894cbd877a73f4e185b
+guid: 8b9f36d319866de498171aed385bfd05
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Chopstick_Animated_0
-    21300002: Chopstick_Animated_1
-    21300004: Chopstick_Animated_2
-    21300006: Chopstick_Animated_3
-    21300008: Chopstick_Animated_4
-    21300010: Chopstick_Animated_5
-    21300012: Chopstick_Animated_6
-    21300014: Chopstick_Animated_7
+    21300000: Guy_1_done
+    21300002: Gut1_walk1
+    21300004: Guy1_walk2
+    21300006: Guy1_walk2
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -53,7 +49,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,13 +99,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chopstick_Animated_0
+      name: Guy_1_done
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 43
-        height: 46
+        x: 34
+        y: 224
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,19 +113,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcf0f0438e270da44b90b8fdf3446a73
+      spriteID: adfccf001045b3143b608ee43e5cb724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chopstick_Animated_1
+      name: Gut1_walk1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 0
-        width: 46
-        height: 46
+        x: 2
+        y: 224
+        width: 29
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,19 +133,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 196acb71e0407fc41b0f46b3cc87ee72
+      spriteID: 9605b756c06906445b8f888c81e3bbff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chopstick_Animated_2
+      name: Guy1_walk2
       rect:
         serializedVersion: 2
-        x: 89
-        y: 0
-        width: 46
-        height: 46
+        x: 66
+        y: 224
+        width: 27
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,7 +153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed82f6f075001b34daf179bd2235fda5
+      spriteID: 249e713f0ab497141bc8d0fe21dc26c0
       vertices: []
       indices: 
       edges: []
@@ -165,7 +161,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2715e15793f31214e90b4323f108b636
+    spriteID: 800417044d6f24f4797f9ca99af7e1f9
     vertices: []
     indices: 
     edges: []

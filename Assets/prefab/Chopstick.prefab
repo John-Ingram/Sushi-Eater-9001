@@ -42,8 +42,8 @@ GameObject:
   - component: {fileID: 114444434669293026}
   - component: {fileID: 95457446547053148}
   - component: {fileID: 114183621629930226}
-  - component: {fileID: 61656483729541840}
   - component: {fileID: 82705362306738236}
+  - component: {fileID: 60583013786728186}
   m_Layer: 0
   m_Name: Chopstick
   m_TagString: Chopstick
@@ -57,14 +57,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1928717173765252}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.39232737, w: 0.91982573}
   m_LocalPosition: {x: 0.0041231513, y: -0.781, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4953529296111022}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 46.199}
 --- !u!4 &4953529296111022
 Transform:
   m_ObjectHideFlags: 1
@@ -98,8 +98,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61656483729541840
-BoxCollider2D:
+--- !u!60 &60583013786728186
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -110,19 +110,26 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0052240714, y: -0.015197217}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0.14, y: 0.03, z: 0.14999999, w: 0.06}
+    border: {x: 0.07, y: 0.015, z: 0, w: 0.03}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.225, y: 0.23}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.030302808, y: 0.23071623}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.1125, y: 0.114999995}
+      - {x: 0.107499994, y: 0.114999995}
+      - {x: 0.0175, y: 0.024999999}
+      - {x: -0.0025, y: 0.005}
+      - {x: -0.1125, y: -0.105}
+      - {x: -0.1125, y: -0.114999995}
+      - {x: -0.1025, y: -0.114999995}
+      - {x: 0.1125, y: 0.105}
 --- !u!82 &82705362306738236
 AudioSource:
   m_ObjectHideFlags: 1
@@ -275,8 +282,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bd5ea4c1c78ae44857440c31ea2ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObj: {fileID: 1263107645959500, guid: 0db6f7fa88845c34983be3a62ae9ecef, type: 2}
+  targetObj: {fileID: 0}
   speed: 4
+  audioSource: {fileID: 0}
+  soundEffect: {fileID: 0}
 --- !u!198 &198311381713195370
 ParticleSystem:
   m_ObjectHideFlags: 1

@@ -8,6 +8,7 @@ public class Path_follower : MonoBehaviour {
     public bool go = false;
     public float minDist;
     public bool showWaypoints = false;
+    public int restartAt = 0;
 
 
     private int index = 0;
@@ -41,7 +42,7 @@ public class Path_follower : MonoBehaviour {
         }
         else
         {
-            index = 0;
+            index = restartAt;
         }
 	}
 

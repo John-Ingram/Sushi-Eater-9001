@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 95457446547053148}
   - component: {fileID: 114183621629930226}
   - component: {fileID: 82705362306738236}
-  - component: {fileID: 60583013786728186}
+  - component: {fileID: 61164207081905732}
   m_Layer: 0
   m_Name: Chopstick
   m_TagString: Chopstick
@@ -64,7 +64,7 @@ Transform:
   - {fileID: 4953529296111022}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 46.199}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4953529296111022
 Transform:
   m_ObjectHideFlags: 1
@@ -98,8 +98,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60583013786728186
-PolygonCollider2D:
+--- !u!61 &61164207081905732
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -112,24 +112,17 @@ PolygonCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0.07, y: 0.015, z: 0, w: 0.03}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.225, y: 0.23}
-    newSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.02, y: 0.09}
+    newSize: {x: 0.02, y: 0.09}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.1125, y: 0.114999995}
-      - {x: 0.107499994, y: 0.114999995}
-      - {x: 0.0175, y: 0.024999999}
-      - {x: -0.0025, y: 0.005}
-      - {x: -0.1125, y: -0.105}
-      - {x: -0.1125, y: -0.114999995}
-      - {x: -0.1025, y: -0.114999995}
-      - {x: 0.1125, y: 0.105}
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.09}
+  m_EdgeRadius: 0
 --- !u!82 &82705362306738236
 AudioSource:
   m_ObjectHideFlags: 1
@@ -143,7 +136,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -284,8 +277,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObj: {fileID: 0}
   speed: 4
-  audioSource: {fileID: 0}
-  soundEffect: {fileID: 0}
+  audioSource: {fileID: 82705362306738236}
+  soundEffect: {fileID: 8300000, guid: 93777527b7329f04ea9cb87fc3821cd8, type: 3}
 --- !u!198 &198311381713195370
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -4973,7 +4966,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.02, y: 0.09}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

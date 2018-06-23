@@ -5,10 +5,12 @@ using UnityEngine;
 public class Break : MonoBehaviour {
     public GameObject particles;
     public float lifeAfterHit = 0.5f;
-	
+
+    private Rigidbody rigidbody2d ;
     void OnCollisionEnter2D (Collision2D collided)
     {
         particles.SetActive(true);
+        Destroy(GetComponent<Rigidbody2D>());
         StartCoroutine(Death());
     }
 

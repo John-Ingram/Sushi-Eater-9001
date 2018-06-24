@@ -20,7 +20,10 @@ public class Throw : MonoBehaviour {
         {
             if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
-                ThrowStick();
+                if (canThrow)
+                {
+                    ThrowStick();
+                }
             }
         }
         if (Input.GetMouseButtonDown(0))

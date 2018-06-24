@@ -64,6 +64,9 @@ TagManager:
   - name: Persons
     uniqueID: 1926820761
     locked: 0
+  - name: Stand
+    uniqueID: 576432099
+    locked: 0
   - name: UI
     uniqueID: 3578443047
     locked: 0

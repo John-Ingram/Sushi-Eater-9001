@@ -22,6 +22,7 @@ public class Person_controller : MonoBehaviour {
                 complete.UpdateScore();
                 gameObject.GetComponent<Animator>().enabled = false;
                 this.GetComponent<SpriteRenderer>().sprite = personDone;
+                
                 if (getsHungry)
                 {
                     StartCoroutine(GetHungry());

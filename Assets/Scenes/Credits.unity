@@ -740,9 +740,9 @@ MonoBehaviour:
 
     John ingram
 
-    Music and sound
+    Music
 
-    To be deermined'
+    joecrowvk'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8e4d71f78ab619d4fb2553c85edf692f, type: 2}
   m_sharedMaterial: {fileID: 21702321422601592, guid: 8e4d71f78ab619d4fb2553c85edf692f,
@@ -810,10 +810,10 @@ MonoBehaviour:
   m_margin: {x: -10.820397, y: 0, z: -13.771419, w: 0}
   m_textInfo:
     textComponent: {fileID: 1018134489}
-    characterCount: 128
+    characterCount: 112
     spriteCount: 0
-    spaceCount: 20
-    wordCount: 20
+    spaceCount: 16
+    wordCount: 16
     linkCount: 0
     lineCount: 9
     pageCount: 1

@@ -1355,7 +1355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c16011d323aedd4da71a45aaa80a0a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Credits
+  nextScene: Level5
   numberOfPlayers: 7
   waitTime: 0.5
   score: {fileID: 1619377329}

@@ -8,13 +8,13 @@ public class Path_follower : MonoBehaviour {
     public bool go = false;
     public float minDist;
     public bool showWaypoints = false;
-    public int restartAt = 0;
+    public int restartAt = 1;
+    public int teleportFrom = 1;
+    private int index;
 
 
-    private int index = 0;
-
-
-	void Start () {
+	void Start ()
+    {
         foreach (GameObject thing in waypoints)
         {
             thing.SetActive(showWaypoints);
@@ -22,23 +22,33 @@ public class Path_follower : MonoBehaviour {
 	}
 	
 
-	void Update () {
+	void Update ()
+    {
         if (index < waypoints.Length)
         {
-            float dist = Vector2.Distance(gameObject.transform.position, waypoints[index].transform.position);
-
-            if (go)
+            if (index == teleportFrom)
             {
-                if (dist > minDist)
+                gameObject.transform.position = waypoints[teleportFrom + 1].transform.position;
+                index++;
+            }
+            else
+            {
+                float dist = Vector2.Distance(gameObject.transform.position, waypoints[index].transform.position);
+
+                if (go)
                 {
-                    Move();
-                }
-                else
-                {
-                   
+                    if (dist > minDist)
+                    {
+                        Move();
+                    }
+                    else
+                    {
+
                         index++;
+                    }
                 }
             }
+            
         }
         else
         {
